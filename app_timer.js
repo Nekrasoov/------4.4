@@ -197,9 +197,9 @@ function setCircleDasharray() {
 }
 
 function soundClick() {
-    var audio = new Audio(); // Создаём новый элемент Audio
-    audio.src = '1.m4a'; // Указываем путь к звуку "клика"
-    audio.autoplay = true; // Автоматически запускаем
+    var audio = new Audio();  
+    audio.src = '1.m4a';  
+    audio.autoplay = true;  
   }
 
 
@@ -537,9 +537,9 @@ function setCircleDasharray() {
 }
 
 function soundClick() {
-    var audio = new Audio(); // Создаём новый элемент Audio
-    audio.src = '1.m4a'; // Указываем путь к звуку "клика"
-    audio.autoplay = true; // Автоматически запускаем
+    var audio = new Audio();  
+    audio.src = '1.m4a';  
+    audio.autoplay = true;  
   }
 
 
@@ -873,9 +873,9 @@ function setCircleDasharray() {
 }
 
 function soundClick() {
-    var audio = new Audio(); // Создаём новый элемент Audio
-    audio.src = '1.m4a'; // Указываем путь к звуку "клика"
-    audio.autoplay = true; // Автоматически запускаем
+    var audio = new Audio();  
+    audio.src = '1.m4a';  
+    audio.autoplay = true;  
   }
 
 
@@ -1207,9 +1207,9 @@ $(".add").on('click', function() {
   }
   
   function soundClick() {
-      var audio = new Audio(); // Создаём новый элемент Audio
-      audio.src = '1.m4a'; // Указываем путь к звуку "клика"
-      audio.autoplay = true; // Автоматически запускаем
+      var audio = new Audio();  
+      audio.src = '1.m4a';  
+      audio.autoplay = true;  
     }
   
   
@@ -1541,9 +1541,9 @@ $(".add").on('click', function() {
   }
   
   function soundClick() {
-      var audio = new Audio(); // Создаём новый элемент Audio
-      audio.src = '1.m4a'; // Указываем путь к звуку "клика"
-      audio.autoplay = true; // Автоматически запускаем
+      var audio = new Audio();  
+      audio.src = '1.m4a';  
+      audio.autoplay = true;  
     }
   
   
@@ -1880,9 +1880,9 @@ $(".add").on('click', function() {
   }
   
   function soundClick() {
-      var audio = new Audio(); // Создаём новый элемент Audio
-      audio.src = '2.m4a'; // Указываем путь к звуку "клика"
-      audio.autoplay = true; // Автоматически запускаем
+      var audio = new Audio();  
+      audio.src = '2.m4a';  
+      audio.autoplay = true;  
     }
   
   
@@ -2210,9 +2210,9 @@ $(".add").on('click', function() {
   }
   
   function soundClick() {
-      var audio = new Audio(); // Создаём новый элемент Audio
-      audio.src = '2.m4a'; // Указываем путь к звуку "клика"
-      audio.autoplay = true; // Автоматически запускаем
+      var audio = new Audio();  
+      audio.src = '2.m4a';  
+      audio.autoplay = true;  
     }
   
   
@@ -2547,9 +2547,9 @@ $(".add").on('click', function() {
   }
   
   function soundClick() {
-      var audio = new Audio(); // Создаём новый элемент Audio
-      audio.src = '2.m4a'; // Указываем путь к звуку "клика"
-      audio.autoplay = true; // Автоматически запускаем
+      var audio = new Audio();  
+      audio.src = '2.m4a';  
+      audio.autoplay = true;  
     }
   
   
@@ -2882,9 +2882,9 @@ $(".add").on('click', function() {
   }
   
   function soundClick() {
-      var audio = new Audio(); // Создаём новый элемент Audio
-      audio.src = '2.m4a'; // Указываем путь к звуку "клика"
-      audio.autoplay = true; // Автоматически запускаем
+      var audio = new Audio();  
+      audio.src = '2.m4a';  
+      audio.autoplay = true;  
     }
   
   
@@ -3215,9 +3215,9 @@ $(".add").on('click', function() {
     }
     
     function soundClick() {
-        var audio = new Audio(); // Создаём новый элемент Audio
-        audio.src = '2.m4a'; // Указываем путь к звуку "клика"
-        audio.autoplay = true; // Автоматически запускаем
+        var audio = new Audio();  
+        audio.src = '2.m4a';  
+        audio.autoplay = true;  
       }
     
     
@@ -3554,9 +3554,9 @@ $(".add").on('click', function() {
     }
     
     function soundClick() {
-        var audio = new Audio(); // Создаём новый элемент Audio
-        audio.src = '3.m4a'; // Указываем путь к звуку "клика"
-        audio.autoplay = true; // Автоматически запускаем
+        var audio = new Audio();  
+        audio.src = '3.m4a';  
+        audio.autoplay = true;  
       }
     
     
@@ -3884,9 +3884,9 @@ $(".add").on('click', function() {
     }
     
     function soundClick() {
-        var audio = new Audio(); // Создаём новый элемент Audio
-        audio.src = '3.m4a'; // Указываем путь к звуку "клика"
-        audio.autoplay = true; // Автоматически запускаем
+        var audio = new Audio(); 
+        audio.src = '3.m4a';  
+        audio.autoplay = true;  
       }
     
     
@@ -4221,9 +4221,9 @@ $(".add").on('click', function() {
     }
     
     function soundClick() {
-        var audio = new Audio(); // Создаём новый элемент Audio
-        audio.src = '3.m4a'; // Указываем путь к звуку "клика"
-        audio.autoplay = true; // Автоматически запускаем
+        var audio = new Audio(); 
+        audio.src = '3.m4a';  
+        audio.autoplay = true;  
       }
     
     
@@ -4556,9 +4556,9 @@ $(".add").on('click', function() {
     }
     
     function soundClick() {
-        var audio = new Audio(); // Создаём новый элемент Audio
-        audio.src = '3.m4a'; // Указываем путь к звуку "клика"
-        audio.autoplay = true; // Автоматически запускаем
+        var audio = new Audio(); 
+        audio.src = '3.m4a';  
+        audio.autoplay = true;  
       }
     
     
@@ -4889,9 +4889,9 @@ $(".add").on('click', function() {
       }
       
       function soundClick() {
-          var audio = new Audio(); // Создаём новый элемент Audio
-          audio.src = '3.m4a'; // Указываем путь к звуку "клика"
-          audio.autoplay = true; // Автоматически запускаем
+          var audio = new Audio(); 
+          audio.src = '3.m4a';  
+          audio.autoplay = true;  
         }
       
       
@@ -5228,9 +5228,9 @@ $(".add").on('click', function() {
   }
   
   function soundClick() {
-      var audio = new Audio(); // Создаём новый элемент Audio
-      audio.src = '4.m4a'; // Указываем путь к звуку "клика"
-      audio.autoplay = true; // Автоматически запускаем
+      var audio = new Audio(); 
+      audio.src = '4.m4a';  
+      audio.autoplay = true;  
     }
   
   
@@ -5558,9 +5558,9 @@ $(".add").on('click', function() {
   }
   
   function soundClick() {
-      var audio = new Audio(); // Создаём новый элемент Audio
-      audio.src = '4.m4a'; // Указываем путь к звуку "клика"
-      audio.autoplay = true; // Автоматически запускаем
+      var audio = new Audio(); 
+      audio.src = '4.m4a';  
+      audio.autoplay = true;  
     }
   
   
@@ -5895,9 +5895,9 @@ $(".add").on('click', function() {
   }
   
   function soundClick() {
-      var audio = new Audio(); // Создаём новый элемент Audio
-      audio.src = '4.m4a'; // Указываем путь к звуку "клика"
-      audio.autoplay = true; // Автоматически запускаем
+      var audio = new Audio(); 
+      audio.src = '4.m4a';  
+      audio.autoplay = true;  
     }
   
   
@@ -6230,9 +6230,9 @@ $(".add").on('click', function() {
   }
   
   function soundClick() {
-      var audio = new Audio(); // Создаём новый элемент Audio
-      audio.src = '4.m4a'; // Указываем путь к звуку "клика"
-      audio.autoplay = true; // Автоматически запускаем
+      var audio = new Audio(); 
+      audio.src = '4.m4a';  
+      audio.autoplay = true;  
     }
   
   
@@ -6563,9 +6563,9 @@ $(".add").on('click', function() {
     }
     
     function soundClick() {
-        var audio = new Audio(); // Создаём новый элемент Audio
-        audio.src = '4.m4a'; // Указываем путь к звуку "клика"
-        audio.autoplay = true; // Автоматически запускаем
+        var audio = new Audio(); 
+        audio.src = '4.m4a';  
+        audio.autoplay = true;  
       }
     
     
@@ -6903,9 +6903,9 @@ $(".add").on('click', function() {
     }
     
     function soundClick() {
-        var audio = new Audio(); // Создаём новый элемент Audio
-        audio.src = '5.m4a'; // Указываем путь к звуку "клика"
-        audio.autoplay = true; // Автоматически запускаем
+        var audio = new Audio(); 
+        audio.src = '5.m4a';  
+        audio.autoplay = true;  
       }
     
     
@@ -7233,9 +7233,9 @@ $(".add").on('click', function() {
     }
     
     function soundClick() {
-        var audio = new Audio(); // Создаём новый элемент Audio
-        audio.src = '5.m4a'; // Указываем путь к звуку "клика"
-        audio.autoplay = true; // Автоматически запускаем
+        var audio = new Audio(); 
+        audio.src = '5.m4a';  
+        audio.autoplay = true;  
       }
     
     
@@ -7570,9 +7570,9 @@ $(".add").on('click', function() {
     }
     
     function soundClick() {
-        var audio = new Audio(); // Создаём новый элемент Audio
-        audio.src = '5.m4a'; // Указываем путь к звуку "клика"
-        audio.autoplay = true; // Автоматически запускаем
+        var audio = new Audio(); 
+        audio.src = '5.m4a';  
+        audio.autoplay = true;  
       }
     
     
@@ -7905,9 +7905,9 @@ $(".add").on('click', function() {
     }
     
     function soundClick() {
-        var audio = new Audio(); // Создаём новый элемент Audio
-        audio.src = '5.m4a'; // Указываем путь к звуку "клика"
-        audio.autoplay = true; // Автоматически запускаем
+        var audio = new Audio();  
+        audio.src = '5.m4a';  
+        audio.autoplay = true;  
       }
     
     
@@ -8238,9 +8238,9 @@ $(".add").on('click', function() {
       }
       
       function soundClick() {
-          var audio = new Audio(); // Создаём новый элемент Audio
-          audio.src = '5.m4a'; // Указываем путь к звуку "клика"
-          audio.autoplay = true; // Автоматически запускаем
+          var audio = new Audio();  
+          audio.src = '5.m4a';  
+          audio.autoplay = true;  
         }
       
       
@@ -8619,11 +8619,6 @@ $('#01_60').on('click', function() {
 
 
   $(document).ready(function () {
-    // var duration1 = 60 * 30; // 5 minutes
-    // var duration2 = 60 * 60; // 3 minutes
-    // var duration3 = 60 * 20; // 2 minutes
-    // var duration4 = 60 * 40; // 2 minutes
-    // var duration5 = 60 * 60; // 2 minutes
     var timer1, timer2, timer3, timer4, timer5;
     var minutes1, seconds1, minutes2, seconds2, minutes3, seconds3;
     var minutes4, seconds4, minutes5, seconds5;
@@ -8912,23 +8907,6 @@ $('#01_120').on('click', function() {
   
 }); 
 
-// $('#start-btn-1').on('click', function () {
-//   $(this).hide();
-//   $('.timer-svg-1').css('visibility', 'visible');
-//   startTimer1();
-// });
-
-// $('#start-btn-2').on('click', function () {
-//   $(this).hide();
-//   $('.timer-svg-2').css('visibility', 'visible');
-//   startTimer2();
-// });
-
-// $('#start-btn-3').on('click', function () {
-//   $(this).hide();
-//   $('.timer-svg-3').css('visibility', 'visible');
-//   startTimer3();
-// });
 
 
 $('#01_90').on('click', function() {
