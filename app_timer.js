@@ -18,6 +18,7 @@ document.getElementById('mini').hidden = true;
 document.getElementById('game__name-1').hidden = true;
 document.getElementById('game__name-2').hidden = true;
 document.getElementById('game__name-3').hidden = true;
+
 document.getElementById('game__name-4').hidden = true;
 document.getElementById('game__name-5').hidden = true;
 
