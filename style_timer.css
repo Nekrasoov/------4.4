@@ -1,0 +1,1817 @@
+@font-face {
+    font-family: 'UniSans';
+    src: url('UniSansHeavyCAPS.eot');
+    src: local('Uni Sans Heavy CAPS'), local('UniSansHeavyCAPS'),
+        url('../UniSansHeavyCAPS.eot?#iefix') format('embedded-opentype'),
+        url('UniSansHeavyCAPS.woff2') format('woff2'),
+        url('UniSansHeavyCAPS.woff') format('woff'),
+        url('UniSansHeavyCAPS.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+html, body {
+    overflow-x: hidden;
+    -moz-user-select: none;
+-khtml-user-select: none;
+user-select: none;      
+}
+
+body {
+    margin: 0;
+
+    font-family: 'UniSans';
+    font-weight: 900;
+    font-style: normal;
+
+    font-size: 14px;
+    line-height: 1.6;
+    color: #fff;
+
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    font-family: 'UniSans';
+}
+
+
+.frame {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    background: #FFFFFF;
+}
+
+.container {
+    position: absolute;
+    width: 100%;
+    max-width: 1920px;
+    height: 100%;
+    max-height: 1080px;
+    margin: 0 auto;
+    left: 0px;
+    top: 0px;
+    background: url(Images_timer/bacground.jpg) center no-repeat;
+}
+
+.card {
+    position: absolute;
+    width: 1656px;
+    height: 569px;
+    left: 132px;
+    top: 64px;
+}
+
+.card__one {
+    position: absolute;
+    width: 280px;
+    height: 569px;
+    left: 0;
+    top: 0;
+}
+
+
+
+.number__pc {
+    position: absolute;
+    width: 267px;
+    height: 48px;
+    left: 7px;
+    top: 7px;
+
+    font-size: 38px;
+    line-height: 48px;
+
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.time__begin {
+    position: absolute;
+    width: 147px;
+    height: 24px;
+    left: 67px;
+    top: 55px;
+
+    font-size: 20px;
+    line-height: 24px;
+
+
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.time__start {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 100px;
+    height: 60px;
+    left: 90px;
+    top: 84px;
+
+    background: #FFFFFF;
+    border: 3px solid #CD2072;
+    border-radius: 180px;
+
+}
+
+.time__start__text {
+    position: absolute;
+    width: 74px;
+    height: 36px;
+    left: 9px;
+    top: 9px;
+
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 36px;
+
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+
+    color: #000000;
+}
+
+
+.timer__time {
+    position: absolute;
+    width: 280px;
+    height: 34px;
+    left: 0;
+    top: 151px;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.timer__time__border {
+    cursor: pointer;
+
+    width: 50px;
+    height: 30px;
+
+    background: #FFFFFF;
+    border-radius: 180px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.timer__time__border:hover {
+    background-color: #CD2072;
+  }
+
+  .timer__time__border:hover .timer__time__text {
+    color: #ffffff;
+  }
+
+  .timer__time__border:hover .timer__time__text__last {
+    color: #ffffff;
+  }
+
+  .timer__time__border:hover .timer__time__text__first {
+    color: #ffffff;
+  }
+
+
+ .timer__time__text__first {
+    display: block;
+    width: 26px;
+    height: 34px;
+    margin-left: 0px;
+    margin-top: -2px;
+
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.timer__time__text {
+    display: block;
+    width: 26px;
+    height: 34px;
+    margin-left: -8px;
+    margin-top: -2px;
+
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.timer__time__text__last {
+    width: 26px;
+    height: 34px;
+    margin-left: -17px;
+    margin-top: -2px;
+
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.timer {
+    position: absolute;
+    width: 280px;
+    height: 330px;
+    left: 0;
+    top: 196px;
+
+    background: #FFFFFF;
+    border-radius: 30px;
+}
+
+.time__end__text {
+    position: absolute;
+    width: 187px;
+    height: 24px;
+    left: 47px;
+    top: 224px;
+
+    font-size: 20px;
+    line-height: 24px;
+
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+
+    color: #000000;
+}
+
+.time__end {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 100px;
+    height: 60px;
+    left: 90px;
+    top: 255px;
+
+    background: #FFFFFF;
+    border: 3px solid #CD2072;
+    border-radius: 180px;
+}
+
+.game {
+    
+    position: absolute;
+    width: 260px;
+    height: 30px;
+    left: 10px;
+    top: 539px;
+
+
+}
+
+.game__name {
+
+    cursor: pointer;
+    width: 80px;
+    height: 30px;
+    font-family: 'unisans';
+    padding: 2px;
+    border-radius: 13px;
+    background: #FFFFFF;
+    border-radius: 90px;
+}
+
+.game__name-1 {
+    position: absolute;
+    top: 0px;
+    left: 40px;
+
+    cursor: pointer;
+    width: 80px;
+    height: 30px;
+    font-family: 'unisans';
+    padding: 2px;
+    border-radius: 13px;
+    background: #FFFFFF;
+    border-radius: 90px;
+}
+
+.game__name-2 {
+    position: absolute;
+    left: 140px;
+
+    cursor: pointer;
+    width: 80px;
+    height: 30px;
+    font-family: 'unisans';
+    padding: 2px;
+    border-radius: 13px;
+    background: #FFFFFF;
+    border-radius: 90px;
+}
+
+.game__name-3 {
+    position: absolute;
+    left: 180px;
+
+    cursor: pointer;
+    width: 80px;
+    height: 30px;
+    font-family: 'unisans';
+    padding: 2px;
+    border-radius: 13px;
+    background: #FFFFFF;
+    border-radius: 90px;
+}
+
+.game__name-4 {
+    position: absolute;
+    left: 90px;
+
+    cursor: pointer;
+    width: 80px;
+    height: 30px;
+    font-family: 'unisans';
+    padding: 2px;
+    border-radius: 13px;
+    background: #FFFFFF;
+    border-radius: 90px;
+}
+
+.game__name-5 {
+    position: absolute;
+
+    cursor: pointer;
+    width: 80px;
+    height: 30px;
+    font-family: 'unisans';
+    padding: 2px;
+    border-radius: 13px;
+    background: #FFFFFF;
+    border-radius: 90px;
+}
+
+.game__text {
+    
+    width: 80px;
+    height: 30px;
+
+    margin-left: 6px;
+    margin-top: 8px;
+
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.logo {
+    position: absolute;
+    width: 419px;
+    height: 286px;
+    left: 132px;
+    top: 749px;
+
+    background: url(Images_timer/logo.png);
+}
+
+
+
+
+
+/* таймер */
+
+
+.base-timer {
+    position: relative;
+    width: 195px;
+    height: 195px;
+    left: 43px;
+    top: 14px;
+
+}
+
+.base-timer__svg {
+    transform: scaleX(-1);
+}
+
+.base-timer__circle {
+    fill: none;
+    stroke: none;
+}
+
+.base-timer__path-elapsed {
+    stroke-width: 7px;
+    stroke: grey;
+}
+
+.base-timer__path-remaining {
+    stroke-width: 7px;
+    stroke-linecap: round;
+    transform: rotate(90deg);
+    transform-origin: center;
+    transition: 1s linear all;
+    fill-rule: nonzero;
+    stroke: currentColor;
+}
+
+.base-timer__path-remaining.green {
+    color: #CD2072;
+}
+
+.base-timer__path-remaining.orange {
+    color: #a7195b;
+}
+
+.base-timer__path-remaining.red {
+    color: #5e0f34;
+}
+
+.base-timer__label {
+    position: absolute;
+    width: 195px;
+    height: 195px;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+
+    color: #000000;
+}
+
+
+/* переключатель */
+
+.toggle {
+    position: absolute;
+    width: 60px;
+    height: 32px;
+    top: 10px;
+    left: 10px;
+
+    background: #353434;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.toggle .toggle_button {
+
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 3px;
+    left: 3px;
+
+    background: #ffffff;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.toggle.active {
+    background: #1E3685;
+}
+
+.toggle.active .toggle_button {
+    left: 32px;
+}
+
+.start {
+    opacity: 0;
+
+    z-index: 1;
+
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 3px;
+    left: 3px;
+
+    background: #ffffff;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.stop {
+
+
+    opacity: 0;
+    z-index: 1;
+
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 3px;
+    left: 32px;
+
+    background: #ffffff;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.start__text {
+    position: absolute;
+    opacity: 100%;
+    color: #fff;
+    top: 8px;
+    left: 33px;
+    font-size: 11px;
+}
+
+.stop__text {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    opacity: 100%;
+    color: #fff;
+    top: 8px;
+    left: 5px;
+    font-size: 11px;
+}
+
+.blef {
+    position: absolute;
+    z-index: 1;
+    width: 140px;
+    height: 195px;
+    left: 70px;
+    top: 260px;
+    color: #000000;
+    font-size: 25px;
+
+    text-align: center;
+    line-height: 1.3;
+}
+
+.eclipse1 {
+    box-sizing: border-box;
+    z-index: 1;
+    position: absolute;
+    width: 195px;
+    height: 195px;
+    left: 43px;
+    top: 210px;
+
+    border-radius: 50%;
+    background: #CD2072;
+    border: 1px solid #C72173;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.eclipse2 {
+    z-index: 1;
+    position: absolute;
+    width: 165px;
+    height: 168px;
+    left: 58px;
+    top: 223px;
+
+    border-radius: 50%;
+    background: #FFFFFF;
+}
+
+.add {
+
+    z-index: 1;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 0px;
+    left: 197px;
+
+    background: #353434;
+    border-radius: 30px;
+    transition: 0.3s;
+
+    cursor: pointer;
+}
+
+.add__text {
+    position: absolute;
+    top: 4px;
+    left: 8px;
+}
+
+.put__away {
+
+    z-index: 1;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 0px;
+    left: 230px;
+
+    background: #353434;
+    border-radius: 30px;
+    transition: 0.3s;
+
+    cursor: pointer;
+}
+
+.put__away__text {
+    position: absolute;
+    top: 4px;
+    left: 9px;
+}
+
+.label {
+    color: #CD2072;
+}
+
+.gname {
+    color: #000000;
+}
+
+
+
+
+/* 2 карточка */
+
+
+.card__two {
+    position: absolute;
+    width: 280px;
+    height: 569px;
+    left: 344px;
+    top: 0;
+}
+
+
+/* таймер */
+
+
+.card__twobase-timer {
+    position: relative;
+    width: 195px;
+    height: 195px;
+    left: 43px;
+    top: 14px;
+
+}
+
+.card__twobase-timer__svg {
+    transform: scaleX(-1);
+}
+
+.card__twobase-timer__circle {
+    fill: none;
+    stroke: none;
+}
+
+.card__twobase-timer__path-elapsed {
+    stroke-width: 7px;
+    stroke: grey;
+}
+
+.card__twobase-timer__path-remaining {
+    stroke-width: 7px;
+    stroke-linecap: round;
+    transform: rotate(90deg);
+    transform-origin: center;
+    transition: 1s linear all;
+    fill-rule: nonzero;
+    stroke: currentColor;
+}
+
+.card__twobase-timer__path-remaining.green {
+    color: #CD2072;
+}
+
+.card__twobase-timer__path-remaining.orange {
+    color: #a7195b;
+}
+
+.card__twobase-timer__path-remaining.red {
+    color: #5e0f34;
+}
+
+.card__twobase-timer__label {
+    position: absolute;
+    width: 195px;
+    height: 195px;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+
+    color: #000000;
+}
+
+/* переключатель */
+
+.toggle02 {
+    position: absolute;
+    width: 60px;
+    height: 32px;
+    top: 10px;
+    left: 10px;
+
+    background: #353434;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.toggle02 .toggle_button02 {
+
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 3px;
+    left: 3px;
+
+    background: #ffffff;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.toggle02.active {
+    background: #1E3685;
+}
+
+.toggle02.active .toggle_button02 {
+    left: 32px;
+}
+
+.start_02 {
+    opacity: 0;
+
+    z-index: 1;
+
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 3px;
+    left: 3px;
+
+    background: #ffffff;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.stop_02 {
+
+
+    opacity: 0;
+    z-index: 1;
+
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 3px;
+    left: 32px;
+
+    background: #ffffff;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.start__text_02 {
+    position: absolute;
+    opacity: 100%;
+    color: #fff;
+    top: 8px;
+    left: 33px;
+    font-size: 11px;
+}
+
+.stop__text_02 {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    opacity: 100%;
+    color: #fff;
+    top: 8px;
+    left: 5px;
+    font-size: 11px;
+}
+
+.add_02 {
+
+    z-index: 1;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 0px;
+    left: 197px;
+
+    background: #353434;
+    border-radius: 30px;
+    transition: 0.3s;
+
+    cursor: pointer;
+}
+
+.add__text_02 {
+    position: absolute;
+    top: 4px;
+    left: 8px;
+}
+
+.put__away_02 {
+
+    z-index: 1;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 0px;
+    left: 230px;
+
+    background: #353434;
+    border-radius: 30px;
+    transition: 0.3s;
+
+    cursor: pointer;
+}
+
+.put__away__text_02 {
+    position: absolute;
+    top: 4px;
+    left: 9px;
+}
+
+
+
+
+
+
+/* 3 карточка */
+
+
+.card__three {
+    position: absolute;
+    width: 280px;
+    height: 569px;
+    left: 688px;
+    top: 0;
+}
+
+/* таймер */
+
+
+.card__threebase-timer {
+    position: relative;
+    width: 195px;
+    height: 195px;
+    left: 43px;
+    top: 14px;
+
+}
+
+.card__threebase-timer__svg {
+    transform: scaleX(-1);
+}
+
+.card__threebase-timer__circle {
+    fill: none;
+    stroke: none;
+}
+
+.card__threebase-timer__path-elapsed {
+    stroke-width: 7px;
+    stroke: grey;
+}
+
+.card__threebase-timer__path-remaining {
+    stroke-width: 7px;
+    stroke-linecap: round;
+    transform: rotate(90deg);
+    transform-origin: center;
+    transition: 1s linear all;
+    fill-rule: nonzero;
+    stroke: currentColor;
+}
+
+.card__threebase-timer__path-remaining.green {
+    color: #CD2072;
+}
+
+.card__threebase-timer__path-remaining.orange {
+    color: #a7195b;
+}
+
+.card__threebase-timer__path-remaining.red {
+    color: #5e0f34;
+}
+
+.card__threebase-timer__label {
+    position: absolute;
+    width: 195px;
+    height: 195px;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+
+    color: #000000;
+}
+
+/* переключатель */
+
+.toggle03 {
+    position: absolute;
+    width: 60px;
+    height: 32px;
+    top: 10px;
+    left: 10px;
+
+    background: #353434;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.toggle03 .toggle_button03 {
+
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 3px;
+    left: 3px;
+
+    background: #ffffff;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.toggle03.active {
+    background: #1E3685;
+}
+
+.toggle03.active .toggle_button03 {
+    left: 32px;
+}
+
+.start_03 {
+    opacity: 0;
+
+    z-index: 1;
+
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 3px;
+    left: 3px;
+
+    background: #ffffff;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.stop_03 {
+
+
+    opacity: 0;
+    z-index: 1;
+
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 3px;
+    left: 32px;
+
+    background: #ffffff;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.start__text_03 {
+    position: absolute;
+    opacity: 100%;
+    color: #fff;
+    top: 8px;
+    left: 33px;
+    font-size: 11px;
+}
+
+.stop__text_03 {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    opacity: 100%;
+    color: #fff;
+    top: 8px;
+    left: 5px;
+    font-size: 11px;
+}
+
+.add_03 {
+
+    z-index: 1;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 0px;
+    left: 197px;
+
+    background: #353434;
+    border-radius: 30px;
+    transition: 0.3s;
+
+    cursor: pointer;
+}
+
+.add__text_03 {
+    position: absolute;
+    top: 4px;
+    left: 8px;
+}
+
+.put__away_03 {
+
+    z-index: 1;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 0px;
+    left: 230px;
+
+    background: #353434;
+    border-radius: 30px;
+    transition: 0.3s;
+
+    cursor: pointer;
+}
+
+.put__away__text_03 {
+    position: absolute;
+    top: 4px;
+    left: 9px;
+}
+
+
+
+
+/* 4 карточка */
+
+
+.card__four {
+    position: absolute;
+    width: 280px;
+    height: 569px;
+    left: 1032px;
+    top: 0;
+}
+
+/* таймер */
+
+
+.card__fourbase-timer {
+    position: relative;
+    width: 195px;
+    height: 195px;
+    left: 43px;
+    top: 14px;
+
+}
+
+.card__fourbase-timer__svg {
+    transform: scaleX(-1);
+}
+
+.card__fourbase-timer__circle {
+    fill: none;
+    stroke: none;
+}
+
+.card__fourbase-timer__path-elapsed {
+    stroke-width: 7px;
+    stroke: grey;
+}
+
+.card__fourbase-timer__path-remaining {
+    stroke-width: 7px;
+    stroke-linecap: round;
+    transform: rotate(90deg);
+    transform-origin: center;
+    transition: 1s linear all;
+    fill-rule: nonzero;
+    stroke: currentColor;
+}
+
+.card__fourbase-timer__path-remaining.green {
+    color: #CD2072;
+}
+
+.card__fourbase-timer__path-remaining.orange {
+    color: #a7195b;
+}
+
+.card__fourbase-timer__path-remaining.red {
+    color: #5e0f34;
+}
+
+.card__fourbase-timer__label {
+    position: absolute;
+    width: 195px;
+    height: 195px;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+
+    color: #000000;
+}
+
+/* переключатель */
+
+.toggle04 {
+    position: absolute;
+    width: 60px;
+    height: 32px;
+    top: 10px;
+    left: 10px;
+
+    background: #353434;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.toggle04 .toggle_button04 {
+
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 3px;
+    left: 3px;
+
+    background: #ffffff;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.toggle04.active {
+    background: #1E3685;
+}
+
+.toggle04.active .toggle_button04 {
+    left: 32px;
+}
+
+.start_04 {
+    opacity: 0;
+
+    z-index: 1;
+
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 3px;
+    left: 3px;
+
+    background: #ffffff;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.stop_04 {
+
+
+    opacity: 0;
+    z-index: 1;
+
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 3px;
+    left: 32px;
+
+    background: #ffffff;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.start__text_04 {
+    position: absolute;
+    opacity: 100%;
+    color: #fff;
+    top: 8px;
+    left: 33px;
+    font-size: 11px;
+}
+
+.stop__text_04 {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    opacity: 100%;
+    color: #fff;
+    top: 8px;
+    left: 5px;
+    font-size: 11px;
+}
+
+.add_04 {
+
+    z-index: 1;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 0px;
+    left: 197px;
+
+    background: #353434;
+    border-radius: 30px;
+    transition: 0.3s;
+
+    cursor: pointer;
+}
+
+.add__text_04 {
+    position: absolute;
+    top: 4px;
+    left: 8px;
+}
+
+.put__away_04 {
+
+    z-index: 1;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 0px;
+    left: 230px;
+
+    background: #353434;
+    border-radius: 30px;
+    transition: 0.3s;
+
+    cursor: pointer;
+}
+
+.put__away__text_04 {
+    position: absolute;
+    top: 4px;
+    left: 9px;
+}
+
+
+
+/* 5 карточка */
+
+
+.card__five {
+    position: absolute;
+    width: 280px;
+    height: 569px;
+    left: 1376px;
+    top: 0;
+}
+
+/* таймер */
+
+
+.card__fivebase-timer {
+    position: relative;
+    width: 195px;
+    height: 195px;
+    left: 43px;
+    top: 14px;
+
+}
+
+.card__fivebase-timer__svg {
+    transform: scaleX(-1);
+}
+
+.card__fivebase-timer__circle {
+    fill: none;
+    stroke: none;
+}
+
+.card__fivebase-timer__path-elapsed {
+    stroke-width: 7px;
+    stroke: grey;
+}
+
+.card__fivebase-timer__path-remaining {
+    stroke-width: 7px;
+    stroke-linecap: round;
+    transform: rotate(90deg);
+    transform-origin: center;
+    transition: 1s linear all;
+    fill-rule: nonzero;
+    stroke: currentColor;
+}
+
+.card__fivebase-timer__path-remaining.green {
+    color: #CD2072;
+}
+
+.card__fivebase-timer__path-remaining.orange {
+    color: #a7195b;
+}
+
+.card__fivebase-timer__path-remaining.red {
+    color: #5e0f34;
+}
+
+.card__fivebase-timer__label {
+    position: absolute;
+    width: 195px;
+    height: 195px;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+
+    color: #000000;
+}
+
+/* переключатель */
+
+.toggle05 {
+    position: absolute;
+    width: 60px;
+    height: 32px;
+    top: 10px;
+    left: 10px;
+
+    background: #353434;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.toggle05 .toggle_button05 {
+
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 3px;
+    left: 3px;
+
+    background: #ffffff;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.toggle05.active {
+    background: #1E3685;
+}
+
+.toggle05.active .toggle_button05 {
+    left: 32px;
+}
+
+.start_05 {
+    opacity: 0;
+
+    z-index: 1;
+
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 3px;
+    left: 3px;
+
+    background: #ffffff;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.stop_05 {
+
+
+    opacity: 0;
+    z-index: 1;
+
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 3px;
+    left: 32px;
+
+    background: #ffffff;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.start__text_05 {
+    position: absolute;
+    opacity: 100%;
+    color: #fff;
+    top: 8px;
+    left: 33px;
+    font-size: 11px;
+}
+
+.stop__text_05 {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    opacity: 100%;
+    color: #fff;
+    top: 8px;
+    left: 5px;
+    font-size: 11px;
+}
+
+.add_05 {
+
+    z-index: 1;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 0px;
+    left: 197px;
+
+    background: #353434;
+    border-radius: 30px;
+    transition: 0.3s;
+
+    cursor: pointer;
+}
+
+.add__text_05 {
+    position: absolute;
+    top: 4px;
+    left: 8px;
+}
+
+.put__away_05 {
+
+    z-index: 1;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 0px;
+    left: 230px;
+
+    background: #353434;
+    border-radius: 30px;
+    transition: 0.3s;
+
+    cursor: pointer;
+}
+
+.put__away__text_05 {
+    position: absolute;
+    top: 4px;
+    left: 9px;
+}
+
+/* Заметки */
+
+.notion {
+    position: absolute;
+    width: 965px;
+    height: 315px;
+    left: 820px;
+    top: 720px;
+
+}
+
+.notion__fon {
+    z-index: 1;
+    position: absolute;
+width: 185px;
+height: 30px;
+left: 750px;
+top: 860px;
+
+background: #CD2072;
+border-radius: 90px;
+transform: rotate(-90deg);
+}
+
+.fon__text {
+    position: absolute;
+width: 228px;
+height: 58px;
+left: 35px;
+top: -4px;
+
+font-size: 25px;
+
+color: #fff;
+
+}
+
+.notion__text {
+    position: absolute;
+left: 50px;
+top: 6px;
+
+font-size: 25px;
+line-height: 58px;
+
+color: #000000;
+
+}
+
+
+#text-block {
+    position: absolute;
+    width: 965px;
+    height: 315px;
+
+    background: #FFFFFF;
+    border-radius: 90px;
+
+    padding-top: 10px;
+    
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  #text-area {
+    width: 90%;
+    height: 96%;
+    margin: 0 auto;
+    display: block;
+    resize: none;
+    padding: 10px;
+
+    font-family:'unisans';
+    font-size: 25px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  #buttons {
+    position: absolute;
+    bottom: 508px;
+    left: 456px;
+    transform: rotate(90deg);
+
+    width: 100%;
+    height: 14%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  button {
+    margin-left : 20px;
+    width: 100px;
+    height: 26px;
+    background-color: #CD2072;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family:'unisans';
+  }
+  
+  button:hover {
+    background-color: #470b27;
+  }
+  
+
+
+
+
+  /* apd */
+
+  .sasha {
+      position: absolute;
+      width: 100px;
+    height: 39px;
+    left: 26px;
+    top: 55px;
+
+      background: rgba(217, 217, 217, 0.5);
+      border-radius: 90px;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      cursor: pointer;
+  }
+
+  .sasha:hover {
+    background: rgba(187, 17, 17, 0.5);
+  }
+
+  .reset, .reset2, .reset3, .reset4, .reset5{
+    position: absolute;
+    width: 43px;
+height: 20px;
+    left: 12px;
+    top: 45px;
+    cursor: pointer;
+    
+    background: #D9D9D9;
+    border-radius: 90px;
+  }
+
+  .reset__text, .reset__text2, .reset__text3, .reset__text4, .reset__text5 {
+    position: absolute;
+width: 35px;
+height: 15px;
+left: 5px;
+top: 3px;
+
+font-size: 10px;
+line-height: 15px;
+
+color: #000000;
+  }
+
+  .reset:hover {
+    background: rgba(187, 17, 17, 0.596);
+    
+  }
+  
+  
+   .invite {
+    position: absolute;
+      width: 154px;
+      height: 39px;
+      left: 26px;
+    top: 13px;
+
+      background: rgba(217, 217, 217, 0.5);
+      border-radius: 90px;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 17px;
+      cursor: pointer;
+      text-decoration: none;
+  color: #ffffff;
+  }
+
+ 
+  /* mini */
+
+  .mini {
+    position: absolute;
+    top: 520px;
+    left: -50px;
+  }
+  
+  .timer-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .timer-svg-1,
+  .timer-svg-2,
+  .timer-svg-3,
+  .timer-svg-4,
+  .timer-svg-5 {
+    width: 200px;
+    height: 200px;
+    visibility: hidden;
+  }
+
+  .timer-svg-1 {
+    position: absolute;
+    top: -12px;
+    left: 40px;
+  }
+
+  .timer-svg-2 {
+    position: absolute;
+    top: -32px;
+    left: 140px;
+  }
+
+  .timer-svg-3 {
+    position: absolute;
+    top: -50px;
+    left: 0;
+  }
+
+  .timer-svg-4 {
+    position: absolute;
+    top: -70px;
+    left: 90px;
+  }
+
+  .timer-svg-5 {
+    position: absolute;
+    top: -90px;
+    left: 180px;
+  }
+  
+  .timer-path {
+    stroke: #ffffff;
+    stroke-width: 6px;
+    fill: none;
+    stroke-dasharray: 251.2;
+    stroke-dashoffset: 0;
+    transition: stroke-dashoffset 1s linear;
+  }
+  
+  .timer-text {
+    font-size: 20px;
+    font-weight: bold;
+    fill: #ffffff;
+    text-anchor: middle;
+    dominant-baseline: middle;
+  }
+  
+  #start-btn-1 {
+    z-index: 1;
+
+    position: absolute;
+
+    top: 20px;
+    left: 130px;
+    
+    cursor: pointer;
+    width: 80px;
+    height: 30px;
+    font-family: 'unisans';
+    padding: 2px;
+    border-radius: 13px;
+    background: #FFFFFF;
+    border-radius: 90px;
+
+    color: black;
+  }
+  
+  #start-btn-2 {
+    z-index: 1;
+    position: absolute;
+
+    top: -1px;
+    left: 80px;
+    
+    cursor: pointer;
+    width: 80px;
+    height: 30px;
+    font-family: 'unisans';
+    padding: 2px;
+    border-radius: 13px;
+    background: #FFFFFF;
+    border-radius: 90px;
+
+    color: black;
+  }
+
+ 
+
+  #start-btn-3 {
+    z-index: 1;
+    position: absolute;
+
+    top: -21px;
+    left: 180px;
+    
+    cursor: pointer;
+    width: 80px;
+    height: 30px;
+    font-family: 'unisans';
+    padding: 2px;
+    border-radius: 13px;
+    background: #FFFFFF;
+    border-radius: 90px;
+
+    color: black;
+
+
+  }
+
+ 
+  
+ 
+
+
+  
